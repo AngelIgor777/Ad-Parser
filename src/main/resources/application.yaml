@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Parser_999MD
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+bot:
+  name:
+    Cars_bot
+  key:
+    7581212137:AAF1DVy_nh_3BnE73-UFUGRVoOG8fX9mQRU
+
+cron:
+  scheduler: 0 * * * * *
